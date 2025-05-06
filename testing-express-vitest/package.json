@@ -1,23 +1,22 @@
 {
-  "name": "testing-in-express",
+  "name": "testing-express-vitest",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@types/express": "^5.0.1",
     "@types/supertest": "^6.0.3",
     "express": "^5.1.0",
     "supertest": "^7.1.0",
     "zod": "^3.24.4"
   },
   "devDependencies": {
-    "@jest/globals": "^29.7.0",
-    "@types/express": "^5.0.1",
-    "ts-jest": "^29.3.2"
+    "vitest": "^2.1.9"
   }
 }

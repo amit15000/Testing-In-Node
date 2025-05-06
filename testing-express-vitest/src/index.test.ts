@@ -1,6 +1,6 @@
-import { describe, expect, test, it } from "@jest/globals";
+import { describe, expect, test, it } from "vitest";
 import request from "supertest";
-import { app } from "../index";
+import { app } from ".";
 
 describe("POST /sum", () => {
   it("should return the sum of two numbers", async () => {
@@ -21,7 +21,6 @@ describe("POST /sum", () => {
 
 describe("GET /sum", () => {
   it("should return the sum of two numbers", async () => {
-    //send header -- (key-value pair)
     const res = await request(app)
       .get("/sum")
       .set({
