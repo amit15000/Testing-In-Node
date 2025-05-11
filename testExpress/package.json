@@ -1,0 +1,25 @@
+{
+  "name": "testexpress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "dev": "nodemon src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.7.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.0",
+    "vitest": "^2.1.9",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "prisma": "^6.7.0"
+  }
+}

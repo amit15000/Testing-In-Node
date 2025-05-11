@@ -1,6 +1,7 @@
 import { describe, expect, test, it } from "vitest";
 import request from "supertest";
 import { app } from ".";
+import { PrismaClient } from "./generated/prisma";
 
 describe("POST /sum", () => {
   it("should return the sum of two numbers", async () => {
